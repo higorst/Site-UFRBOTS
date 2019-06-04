@@ -857,3 +857,29 @@ h1, h2, h3, h4, h5,
   @media (max-width: 991.98px) {
     .service {
       padding: 2rem; } }
+      ul.social-buttons {
+        margin-bottom: 0;
+    }
+    .list-inline {
+        padding-left: 0;
+        list-style: none;
+    }
+    dl, ol, ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    ul {
+      display: block;
+      list-style-type: disc;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      padding-inline-start: 40px;
+  }
+
+  .team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
