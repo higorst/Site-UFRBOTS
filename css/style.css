@@ -3,11 +3,15 @@ body {
   line-height: 1.7;
   color: gray;
   font-weight: 300;
-  font-size: 1.1rem; }
+  font-size: 1.1rem; 
+  background-color: #000;
+}
 
 ::-moz-selection {
   background: #000;
-  color: #fff; }
+  color: #fff; 
+  /* color: #000; */
+}
 
 ::selection {
   background: #000;
@@ -75,7 +79,7 @@ h1, h2, h3, h4, h5,
     border-width: 2px;
     border-color: #000;
     background: #000;
-    color: #fff; }
+    color: #000; }
     .btn.btn-black:hover {
       color: #000;
       background-color: transparent; }
@@ -85,17 +89,17 @@ h1, h2, h3, h4, h5,
       .btn.btn-black.btn-outline-black:hover {
         border-color: #000;
         background: #000;
-        color: #fff; }
+        color: #000; }
   .btn.btn-white {
     border-width: 2px;
     border-color: #fff;
     background: #fff;
     color: #000; }
     .btn.btn-white:hover {
-      color: #fff;
+      color: #000;
       background-color: transparent; }
     .btn.btn-white.btn-outline-white {
-      color: #fff;
+      color: #000;
       background-color: transparent; }
       .btn.btn-white.btn-outline-white:hover {
         border-color: #fff;
@@ -112,7 +116,9 @@ h1, h2, h3, h4, h5,
   height: 43px;
   font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
   .form-control:active, .form-control:focus {
-    border-color: #ffbd45; }
+    border-color: #ffbd45;
+    /* border-color: #000; */
+   }
   .form-control:hover, .form-control:active, .form-control:focus {
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
@@ -148,7 +154,7 @@ h1, h2, h3, h4, h5,
   .site-footer p {
     color: #737373; }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
-    color: #000; }
+    color: #fff; }
   .site-footer a {
     color: #999999; }
     .site-footer a:hover {
@@ -292,7 +298,7 @@ h1, h2, h3, h4, h5,
   font-weight: 900;
   font-size: 1.3rem; }
   .site-logo a {
-    color: #fff; }
+    color: #000; }
 
 .site-navbar {
   margin-bottom: 0px;
@@ -303,7 +309,7 @@ h1, h2, h3, h4, h5,
     padding-left: 7rem;
     padding-right: 7rem; }
   .site-navbar .site-navigation.border-bottom {
-    border-bottom: 1px solid #f3f3f4 !important; }
+    border-bottom: 1px solid #000 !important; }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active {
@@ -317,11 +323,11 @@ h1, h2, h3, h4, h5,
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 5px 20px;
-        color: #fff;
+        color: #000;
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #fff; }
+          color: #000; }
     .site-navbar .site-navigation .site-menu .has-children {
       position: relative; }
       .site-navbar .site-navigation .site-menu .has-children > a {
@@ -599,7 +605,7 @@ h1, h2, h3, h4, h5,
     padding-top: 10px !important;
     padding-bottom: 10px !important; }
 
-/* Blocks */
+/* Blocks */ AQUIAQUI
 .intro-section {
   position: relative; }
   .intro-section, .intro-section .container .row {
@@ -610,7 +616,8 @@ h1, h2, h3, h4, h5,
     position: absolute;
     height: 100%;
     width: 70%;
-    background: #ffbd45;
+    background: #f58a25;
+    /* background: rgb(0, 0, 0); */
     border-bottom-right-radius: 0px; }
     @media (max-width: 991.98px) {
       .intro-section:before {
@@ -618,7 +625,7 @@ h1, h2, h3, h4, h5,
   .intro-section h1 {
     font-size: 3rem;
     font-weight: 900;
-    color: #fff; }
+    color: rgb(255, 255, 255); }
   .intro-section p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.1rem;
@@ -628,13 +635,13 @@ h1, h2, h3, h4, h5,
   position: absolute;
   right: 10%;
   top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
+  -webkit-transform: translateY(-73%);
+  -ms-transform: translateY(-73%);
+  transform: translateY(-73%);}
   .img-absolute img {
-    max-width: 600px;
-    -webkit-box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.4);
-    box-shadow: 0 10px 50px -5px rgba(0, 0, 0, 0.4); }
+    max-width: 450px;
+    -webkit-box-shadow: 0 10px 50px -5px rgba(131, 122, 122, 0.4);
+    box-shadow: 0 10px 50px -5px rgba(131, 122, 122, 0.4); }
     @media (max-width: 991.98px) {
       .img-absolute img {
         max-width: 100%; } }
@@ -643,11 +650,12 @@ h1, h2, h3, h4, h5,
   padding: 10em 0; }
   @media (max-width: 991.98px) {
     .site-section {
-      padding: 4em 0; } }
+      padding: 2em 0; } }
 
 .cta a span {
   border-color: #ffbd45;
-  padding: 10px 20px; }
+  padding: 10px 20px; 
+  color: #fff;}
 
 .cta a:hover span {
   background: #ffbd45;
@@ -661,6 +669,7 @@ h1, h2, h3, h4, h5,
 
 .section-sub-title {
   color: #ffbd45;
+  /* color: #000; */
   text-transform: uppercase;
   font-size: .7rem;
   font-weight: 900;
@@ -669,7 +678,7 @@ h1, h2, h3, h4, h5,
 
 .section-title {
   font-size: 3rem;
-  color: #000;
+  color: #fff;
   margin-bottom: 1.8rem;
   font-weight: 900;
   max-width: 450px; }
@@ -689,7 +698,7 @@ h1, h2, h3, h4, h5,
   font-size: 3.5rem;
   display: block;
   font-weight: 700;
-  color: #000;
+  color: #fff;
   margin-bottom: 1rem; }
 
 .counter .counter-text span {
@@ -738,7 +747,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: "";
-    background: rgba(0, 123, 255, 0.8);
+    /* background: rgba(0, 0, 0, 0.8); */
     z-index: 1;
     opacity: 0;
     visibility: hidden;
@@ -787,6 +796,7 @@ h1, h2, h3, h4, h5,
 .nonloop-block-13 .owl-dots {
   margin-top: 30px;
   width: 100%;
+  height: 100%;
   text-align: center; }
   .nonloop-block-13 .owl-dots .owl-dot {
     display: inline-block;
@@ -828,7 +838,7 @@ h1, h2, h3, h4, h5,
     font-size: .9rem;
     letter-spacing: .1rem;
     text-transform: uppercase;
-    color: #000;
+    color: #fff;
     margin-bottom: 1.5rem;
     font-weight: 900; }
   .footer-section .footer-links li {
@@ -847,7 +857,7 @@ h1, h2, h3, h4, h5,
     font-weight: 900; }
   .process h3, .service h3 {
     font-size: 1.5rem;
-    color: #000;
+    color: #fff;
     font-weight: 700;
     margin-bottom: 1.5rem; }
 
